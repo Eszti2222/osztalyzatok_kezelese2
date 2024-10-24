@@ -6,6 +6,10 @@ def hany_otos(lista,szam):
         i+=1
     return szam
 
+def kiir(lista,szam):
+    kiir_lista=[]
+    print(szam)
+    
 def jegyek_atlaga(lista):
     i:int=0
     db:int=0
