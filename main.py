@@ -10,3 +10,6 @@ print(f"Összesen {elegtelen} kaptak elégtelent.")
 
 print("Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, hány 2-es, hány 3-as, hány 4-es, hány 5-ös van.")
 
+print("1. Mennyi a programozás jegyek átlaga?")
+x:float=metodosuk.jegyek_atlaga(lista)
+print(f"a jegyek átlaga:{x}")
