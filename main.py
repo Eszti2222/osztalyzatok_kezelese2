@@ -6,7 +6,9 @@ print(f"Összesen {otos} db ötös van.")
 
 print("3.Összesen hányan kaptak elégtelent?")
 elegtelen:int=metodosuk.hany_otos(lista,1)
-print(f"Összesen {elegtelen} kaptak elégtelent.")
+print(f"Összesen {elegtelen} diák kapott elégtelent.")
 
-print("Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, hány 2-es, hány 3-as, hány 4-es, hány 5-ös van.")
+print("5.Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, hány 2-es, hány 3-as, hány 4-es, hány 5-ös van.")
+szam:int=metodosuk.kiir(metodosuk.hany_otos(lista,1))
+
 

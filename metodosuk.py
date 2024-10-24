@@ -5,3 +5,7 @@ def hany_otos(lista,szam):
             szam+=1
         i+=1
     return szam
+
+def kiir(lista,szam):
+    kiir_lista=[]
+    print(szam"")
