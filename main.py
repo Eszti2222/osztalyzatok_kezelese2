@@ -13,3 +13,5 @@ print("Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, 
 print("1. Mennyi a programozás jegyek átlaga?")
 x:float=metodosuk.jegyek_atlaga(lista)
 print(f"a jegyek átlaga:{x}")
+
+print
