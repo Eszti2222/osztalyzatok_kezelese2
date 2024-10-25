@@ -6,17 +6,21 @@ def hany_otos(lista,szam):
         i+=1
     return szam
 
-def kiir(lista,szam,):
+def kiir(lista):
     kiir_lista=[]
     i:int=0
     db:int=0
-    while(i<len(lista)):
-        if(szam==lista[i]):
-            db+=1
+    while(i<5):
+       kiir_lista.append(hany_otos(lista,i+1))
+       i+=1
+    print(kiir_lista)
+    i:int=0
+    while(i<len(kiir_lista)):
+        print(i+1,"*"*kiir_lista[i])
         i+=1
-    kiir_lista.append(db)
-    kiir_lista.append(szam)
-    return kiir_lista
+        
+    
+    
         
 def jegyek_atlaga(lista):
     i:int=0

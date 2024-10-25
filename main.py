@@ -9,7 +9,7 @@ elegtelen:int=metodosuk.hany_otos(lista,1)
 print(f"Összesen {elegtelen} diák kapott elégtelent.")
 
 print("5.Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, hány 2-es, hány 3-as, hány 4-es, hány 5-ös van.")
-e:int=metodosuk.kiir(lista,1,1)
+metodosuk.kiir(lista)
 
 
 
@@ -17,4 +17,4 @@ print("1. Mennyi a programozás jegyek átlaga?")
 x:float=metodosuk.jegyek_atlaga(lista)
 print(f"a jegyek átlaga:{x}")
 
-print
+
