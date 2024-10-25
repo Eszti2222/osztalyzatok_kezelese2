@@ -1,3 +1,5 @@
+import random
+
 def hany_otos(lista,szam):
     i:int=0
     while(i<len(lista)):
@@ -6,9 +8,9 @@ def hany_otos(lista,szam):
         i+=1
     return szam
 
-def kiir(lista,szam):
-    kiir_lista=[]
-    print(szam)
+def kiir(lista):
+    
+    print(lista)
     
 def jegyek_atlaga(lista):
     i:int=0
@@ -23,10 +25,24 @@ def jegyek_atlaga(lista):
 
 def hanyadik_elegtelen(lista):
     i:int=0
-    index_lista:int=0
+    index_lista=[]
     while (i<len(lista)):
         if (lista[i]==1):
-            x+=1
             index_lista.append(i)
         i+=1
     return index_lista
+
+def hatos(lista, i):
+    jegy:int=0
+    for i in range(0, len(lista,), 1):
+        jegy = lista[jegy]
+    return jegy
+
+def het():
+    diak_lista=[]
+    for i in range(0, 17, 1):
+        jegyek:int=int(random.random()*8)+1
+        if(5<jegyek):
+            jegyek=5
+        diak_lista.append(jegyek)
+    return diak_lista
