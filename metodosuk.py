@@ -6,10 +6,18 @@ def hany_otos(lista,szam):
         i+=1
     return szam
 
-def kiir(lista,szam):
+def kiir(lista,szam,):
     kiir_lista=[]
-    print(szam)
-    
+    i:int=0
+    db:int=0
+    while(i<len(lista)):
+        if(szam==lista[i]):
+            db+=1
+        i+=1
+    kiir_lista.append(db)
+    kiir_lista.append(szam)
+    return kiir_lista
+        
 def jegyek_atlaga(lista):
     i:int=0
     db:int=0
@@ -23,10 +31,10 @@ def jegyek_atlaga(lista):
 
 def hanyadik_elegtelen(lista):
     i:int=0
-    index_lista:int=0
+    index_lista=[]
     while (i<len(lista)):
         if (lista[i]==1):
-            x+=1
             index_lista.append(i)
         i+=1
     return index_lista
+
