@@ -18,7 +18,8 @@ index_lista=metodosuk.hanyadik_elegtelen(lista)
 print(f"A {index_lista} kapott elégtelent")
 
 print("5.Készíts eljárást, mely sávdiagrammal megjeleníti, hogy hány 1-es, hány 2-es, hány 3-as, hány 4-es, hány 5-ös van.")
-'''metodosuk.kiir(metodosuk.hany_otos(lista,1))'''
+metodosuk.kiir(lista)
+
 
 
 
